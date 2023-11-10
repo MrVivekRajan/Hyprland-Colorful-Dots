@@ -14,6 +14,7 @@
 - [About This Project](#star2-about-the-project)
 - [Discord](https://github.com/developer-vivek/Discord-Themes/) - [Spotify](https://github.com/developer-vivek/Spotify-Themes)  Themes Shown in picture
 - [Preview](#Preview)
+- [Download](#Download)
 - [WorkFlow](#WorkFlow)
 
 ## :star2: About This Project
@@ -49,6 +50,9 @@ Here you will find different colour themes for Hyprland WM. Currently it comes w
 <summary>Dolphin</summary>
 <img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/7043e972-2aa2-42f3-a3b2-489666eb9639"/>
 </details>
+
+# Download
+
 
 # WorkFlow
 https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/8eb960b6-3a87-4371-91d9-9e273799e5a9
