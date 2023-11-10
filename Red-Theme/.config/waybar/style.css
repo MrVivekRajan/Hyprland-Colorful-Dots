@@ -1,0 +1,312 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 13px;
+    min-height: 10px;
+}
+
+@import "Red.css";
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #ebbcba;
+}
+
+tooltip {
+    background: @tool-bg;
+    color: @tool-color;
+    border-radius: 22px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #d0312d;
+}
+
+#workspaces {
+    background: #420C09;
+}
+
+#workspaces button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 0px;
+    border-radius: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #ebbcba;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button.active {
+    background: #420C09;
+    color: #ebbcba;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces button:hover {
+    background: #e3242b;
+    color: #e0115f;
+    padding-left: 3px;
+    padding-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#window {
+    background: #420c09;
+    color: #ebbcba;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+}
+
+#taskbar button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 0px;
+    border-radius: 9px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: @wb-color;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#taskbar button.active {
+    background: @wb-act-bg;
+    color: @wb-act-color;
+    margin-left: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#taskbar button:hover {
+    background: @wb-hvr-bg;
+    color: @wb-hvr-color;
+    padding-left: 3px;
+    padding-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
+}
+
+#workspaces,
+#taskbar {
+    padding: 0px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+}
+
+#clock {
+    color: #f6c177;
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+}
+
+#custom-weather.severe {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #eb937d;
+}
+
+#custom-weather.sunnyDay {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #02aab0;
+}
+
+#custom-weather.clearNight {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #eb937d;
+}
+
+#custom-weather.cloudyFoggyDay, #custom-weather.cloudyFoggyNight {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #06bed6;
+}
+
+#custom-weather.rainyDay, #custom-weather.rainyNight {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #02aab0;
+}
+
+#custom-weather.showyIcyDay, #custom-weather.snowyIcyNight {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #eb3349;
+}
+
+#custom-weather.default {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #06bed6;
+}
+
+#workspaces {
+    background: #191724;
+}
+
+#workspaces button {
+}
+
+#workspaces button.active {
+    color: #ebbcba;
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background: #191724;
+}
+
+#workspaces button.urgent {
+    color: #ffffff;
+    background: #191724;
+}
+
+#workspaces button:hover {
+    background: #191724;
+    color: #ebbcba;
+}
+
+#cpu {
+    padding-left: 4px;
+    padding-right: 4px;
+    background: #420c09;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #ff671f;
+}
+
+#memory {
+    padding-left: 4px;
+    padding-right: 4px;
+    background: #420c09;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #ffffff;
+}
+
+#temperature {
+    padding-left: 4px;
+    padding-right: 4px;
+    background: #420c09;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #97f993;
+}
+
+#temperature.critical {
+    color: #ff0000;
+}
+
+#pulseaudio {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #eb2089;
+}
+
+#battery {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+    color: #6bb0d9;
+}
+
+#tray {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+}
+
+#custom-power {
+    background: #420c09;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
+    border: 2.5px solid #d0312d;
+   color: #f5a500;
+}
+
+#custom-r_end {
+    border-radius: 0px 22px 22px 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
+
+#custom-l_end {
+    border-radius: 22px 0px 0px 22px;
+    margin-left: 9px;
+    padding-left: 3px;
+}
+
+#custom-sr_end {
+    border-radius: 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
+
+#custom-sl_end {
+    border-radius: 0px;
+    margin-left: 9px;
+    padding-left: 3px;
+}
+
+#custom-rr_end {
+    border-radius: 0px 8px 8px 0px;
+    margin-right: 9px;
+    padding-right: 3px;
+}
+
+#custom-rl_end {
+    border-radius: 8px 0px 0px 8px;
+    margin-left: 9px;
+    padding-left: 3px;
+}
