@@ -51,7 +51,7 @@ Here you will find different colour themes for Hyprland WM. Currently it comes w
 </details>
 
 # WorkFlow
-https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/370089ba-51eb-4279-bcfb-46e88cded5f7
+
 
 # Thanks for Visiting !! ❤️❤️
 I Hope You Like my project, if yes then don't forget to give it a star as it means a lot.
