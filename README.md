@@ -22,32 +22,32 @@ Here you will find different colour themes for Hyprland WM. Currently it comes w
 # Preview
 <details>
 <summary>Waybar and Wallpaper</summary>
-<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/057a9e34-0626-4182-beae-f6c01d4e19be"/>
+<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/a5eb75f8-caab-4f68-9885-69f62550f8c2"/>
 </details>
 
 <details>
 <summary>Terminal</summary>
-<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/2dfbdf2d-d76a-49ba-90ae-1d7dbc0239b7"/>
+<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/980d4c99-6ff7-4b26-ab96-8a4ad10d9621"/>
 </details>
 
 <details>
 <summary>Rofi</summary>
-<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/47bbfd1c-32ab-4f27-8d5c-cbd687ed17a3"/>
+<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/c988f2ab-f213-4735-82e4-ecd2b059301b"/>
 </details>
 
 <details>
 <summary>Discord</summary>
-<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/353630d9-1fc6-4453-8a52-8f96f73a891c"/>
+<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/fafc31cd-e9fa-4d07-ae8c-7dc522d3c1e3"/>
 </details>
 
 <details>
 <summary>Spotify</summary>
-<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/10c7212b-2c77-4290-9e6d-e136dbd46ced"/>
+<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/4b55a22c-02cd-46e6-9f16-374e8a3c0c33"/>
 </details>
 
 <details>
 <summary>Dolphin</summary>
-<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/0e09e975-16eb-41f6-9252-b147b094e38d"/>
+<img src="https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/7043e972-2aa2-42f3-a3b2-489666eb9639"/>
 </details>
 
 # WorkFlow
