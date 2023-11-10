@@ -53,7 +53,8 @@ Here you will find different colour themes for Hyprland WM. Currently it comes w
 
 # Download
 1. If you want to download all the themes at once then simply clone/download this repository
-2. If you want to download individual or your desired theme then download it from [Release](https://github.com/developer-vivek/Hyprland-Dots/releases) 
+
+2. If you want to download individual or your desired theme then download it from [Release](https://github.com/developer-vivek/Hyprland-Dots/releases) Section
 
 # WorkFlow
 https://github.com/developer-vivek/Hyprland-Dots/assets/85994908/8eb960b6-3a87-4371-91d9-9e273799e5a9
